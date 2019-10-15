@@ -72,6 +72,7 @@ public class ProtectionProxyDemo {
 	/**
 	 * Method used to create the proxy instance
 	 * @param _entity The entity to use to generate the proxy
+	 * @param _role The current user Role
 	 * @return The proxy to use
 	 */
 	public static IActivatable getProxy(IActivatable _entity, RoleEnum _role) {
